@@ -10,6 +10,7 @@ public class HelloController {
     @ResponseBody
     @RequestMapping("/hello")
     public String hello1(){
+        System.out.println("ffff");
         return "hello yangdan123";
     }
 }
